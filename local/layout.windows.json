@@ -1,0 +1,90 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": -8,
+      "y": -8,
+      "width": 1296,
+      "height": 696,
+      "layout": {
+        "children": [
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "hierarchy"
+                ],
+                "height": 247,
+                "type": "panel",
+                "width": 290
+              },
+              {
+                "active": 0,
+                "children": [
+                  "assets"
+                ],
+                "height": 318,
+                "type": "panel",
+                "width": 290
+              }
+            ],
+            "height": 568,
+            "type": "dock-v",
+            "width": 290
+          },
+          {
+            "active": 0,
+            "children": [
+              "inspector"
+            ],
+            "height": 568,
+            "type": "panel",
+            "width": 304
+          },
+          {
+            "children": [
+              {
+                "active": 0,
+                "children": [
+                  "scene"
+                ],
+                "height": 339,
+                "type": "panel",
+                "width": 674
+              },
+              {
+                "active": 0,
+                "children": [
+                  "console",
+                  "node-library",
+                  "timeline"
+                ],
+                "height": 226,
+                "type": "panel",
+                "width": 674
+              }
+            ],
+            "height": 568,
+            "type": "dock-v",
+            "width": 674
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "inspector",
+        "console",
+        "node-library",
+        "hierarchy",
+        "assets",
+        "scene",
+        "timeline"
+      ]
+    }
+  },
+  "panels": {}
+}

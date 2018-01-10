@@ -1,0 +1,72 @@
+2018-02-18T11:54:01.950Z - normal: Load ~/.CocosCreator/settings.json
+2018-02-18T11:54:01.950Z - normal: checking language setting...
+2018-02-18T11:54:01.950Z - normal: Language: en
+2018-02-18T11:54:04.489Z - success: protocol editor-framework registered
+2018-02-18T11:54:04.489Z - success: protocol app registered
+2018-02-18T11:54:04.489Z - success: protocol theme registered
+2018-02-18T11:54:04.489Z - success: protocol packages registered
+2018-02-18T11:54:04.489Z - success: protocol unpack registerred
+2018-02-18T11:54:04.489Z - success: protocol disable-commonjs registerred
+2018-02-18T11:54:06.942Z - normal: connected!
+2018-02-18T11:54:06.942Z - normal: Check project E:\Documents\Bugan\CocosCreator4\Video\projeto\aula1
+2018-02-18T11:54:06.942Z - normal: Initializing Cocos2d
+2018-02-18T11:54:08.106Z - normal: Initializing Asset Database
+2018-02-18T11:54:08.131Z - success: protocol uuid registerred
+2018-02-18T11:54:08.131Z - success: protocol db registerred
+2018-02-18T11:54:08.132Z - success: protocol thumbnail registerred
+2018-02-18T11:54:08.132Z - normal: Loading editor/builtin packages
+2018-02-18T11:54:08.146Z - success: anysdk loaded
+2018-02-18T11:54:08.234Z - success: assets loaded
+2018-02-18T11:54:08.236Z - success: builder loaded
+2018-02-18T11:54:08.237Z - success: cocos-analytics loaded
+2018-02-18T11:54:08.240Z - success: console loaded
+2018-02-18T11:54:08.242Z - success: hierarchy loaded
+2018-02-18T11:54:08.244Z - success: inspector loaded
+2018-02-18T11:54:08.245Z - success: keystore loaded
+2018-02-18T11:54:08.247Z - success: node-library loaded
+2018-02-18T11:54:08.248Z - success: package-asset loaded
+2018-02-18T11:54:08.250Z - success: preferences loaded
+2018-02-18T11:54:08.251Z - success: project-exporter loaded
+2018-02-18T11:54:08.263Z - success: project-importer loaded
+2018-02-18T11:54:08.265Z - success: project-settings loaded
+2018-02-18T11:54:08.267Z - success: ui-kit loaded
+2018-02-18T11:54:08.268Z - success: ui-grid loaded
+2018-02-18T11:54:08.270Z - success: scene loaded
+2018-02-18T11:54:08.271Z - success: sprite-editor loaded
+2018-02-18T11:54:08.273Z - success: store loaded
+2018-02-18T11:54:08.277Z - success: timeline loaded
+2018-02-18T11:54:08.277Z - normal: Loading builtin packages
+2018-02-18T11:54:08.279Z - success: asset-db-debugger loaded
+2018-02-18T11:54:08.280Z - success: code-editor loaded
+2018-02-18T11:54:08.280Z - success: color-picker loaded
+2018-02-18T11:54:08.282Z - success: package-manager loaded
+2018-02-18T11:54:08.284Z - success: sdkbox loaded
+2018-02-18T11:54:08.287Z - success: tester loaded
+2018-02-18T11:54:08.289Z - success: ui-kit-preview-extra loaded
+2018-02-18T11:54:08.290Z - success: ui-kit-preview loaded
+2018-02-18T11:54:08.291Z - success: ui-tree loaded
+2018-02-18T11:54:09.123Z - normal: Initializing project E:\Documents\Bugan\CocosCreator4\Video\projeto\aula1
+2018-02-18T11:54:09.127Z - normal: Loading packages
+2018-02-18T11:54:09.131Z - normal: Watching packages
+2018-02-18T11:54:09.141Z - normal: Run Application
+2018-02-18T11:54:10.736Z - success: preview server running at http://localhost:7456
+2018-02-18T11:54:16.056Z - normal: 1.7.0
+2018-02-18T11:54:25.512Z - error: { Error: connect ETIMEDOUT 211.151.21.150:443
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+  code: 'ETIMEDOUT',
+  errno: 'ETIMEDOUT',
+  syscall: 'connect',
+  address: '211.151.21.150',
+  port: 443 }
+    at C:\CocosCreator\resources\app.asar\share\login\lib\user.js:1:1441
+    at ClientRequest.Https.request.on.e (C:\CocosCreator\resources\app.asar\share\login\lib\network.js:1:873)
+    at emitOne (events.js:96:13)
+    at ClientRequest.emit (events.js:191:7)
+    at TLSSocket.socketErrorListener (_http_client.js:358:9)
+    at emitOne (events.js:96:13)
+    at TLSSocket.emit (events.js:191:7)
+    at emitErrorNT (net.js:1283:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+2018-02-18T12:03:57.752Z - info: shutdown preview server
